@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolour"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/titleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate your Age"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/title_colour" />
+
+    <TextView
+        android:id="@+id/minuteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In Minutes, Hours, Days, Months, Years"
+        android:layout_marginTop="16dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/title_colour" />
+
+    <Button
+        android:id="@+id/minuteBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:textColor="@color/black"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/selectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17.10.2003"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/title_colour" />
+
+    <TextView
+        android:id="@+id/selectedDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Date"
+        android:layout_marginTop="7dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/light_grey" />
+
+    <TextView
+        android:id="@+id/ageInMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10012320"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/title_colour" />
+
+    <TextView
+        android:id="@+id/minuteText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minutes"
+        android:layout_marginTop="7dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/light_grey" />
+
+    <TextView
+        android:id="@+id/ageInHours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="166872"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/title_colour" />
+
+    <TextView
+        android:id="@+id/hourText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hours"
+        android:layout_marginTop="7dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/light_grey" />
+
+    <TextView
+        android:id="@+id/ageInDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6953"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/title_colour" />
+
+    <TextView
+        android:id="@+id/daysText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Days"
+        android:layout_marginTop="7dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/light_grey" />
+    <TextView
+        android:id="@+id/ageInMonths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="232"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/title_colour" />
+
+    <TextView
+        android:id="@+id/monthsText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Months"
+        android:layout_marginTop="7dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/light_grey" />
+
+    <TextView
+        android:id="@+id/ageInYears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="19"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/title_colour" />
+
+    <TextView
+        android:id="@+id/yearsText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Years"
+        android:layout_marginTop="7dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/light_grey" />
+
+</LinearLayout>
